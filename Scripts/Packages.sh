@@ -53,6 +53,7 @@ UPDATE_PACKAGE "kucat-config" "sirpdboy/luci-app-kucat-config" "master"
 UPDATE_PACKAGE "tcpdump" "KFERMercer/luci-app-tcpdump" "master"
 UPDATE_PACKAGE "istore" "linkease/istore" "main"
 UPDATE_PACKAGE "adguardhome" "sirpdboy/luci-app-adguardhome" "main"
+UPDATE_PACKAGE "advanced" "sirpdboy/luci-app-advanced" "master"
 
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
