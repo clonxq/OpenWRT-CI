@@ -62,12 +62,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Free disk space
-        uses: sbwml/actions@free-disk
-                                       
-      - name: After
-        run: |
-            df -H
-            
+        uses: sbwml/actions@free-disk                                    
+           
       - name: Checkout Projects
         uses: actions/checkout@main
 
@@ -85,10 +81,8 @@ jobs:
           sudo bash -c 'bash <(curl -sL https://build-scripts.immortalwrt.org/init_build_environment.sh)'
           sudo -E systemctl daemon-reload
           sudo -E timedatectl set-timezone "Asia/Shanghai"
+          sudo chown $USER:$GROUPS $GITHUB_WORKSPACE
 
-          sudo mkdir -p /mnt/build_wrt
-          sudo chown $USER:$USER /mnt/build_wrt
-          sudo ln -s /mnt/build_wrt $GITHUB_WORKSPACE/wrt
 
       - name: Initialization Values
         run: |
