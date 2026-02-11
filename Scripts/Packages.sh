@@ -50,7 +50,6 @@ UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "master"
 UPDATE_PACKAGE "kucat-config" "sirpdboy/luci-app-kucat-config" "master"
-UPDATE_PACKAGE "tcpdump" "KFERMercer/luci-app-tcpdump" "master"
 UPDATE_PACKAGE "adguardhome" "ZqinKing/luci-app-adguardhome" "main"
 UPDATE_PACKAGE "advanced" "sirpdboy/luci-app-advanced" "master"
 
